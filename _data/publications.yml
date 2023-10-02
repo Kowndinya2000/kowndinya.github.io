@@ -1,0 +1,83 @@
+- id: ovsg
+  title: "Context-Aware Entity Grounding with Open-Vocabulary 3D Scene Graphs"
+  venue: CoRL, 2023
+  description: "An Open-Vocabulary 3D Scene Graph (OVSG), a formal framework for grounding a variety of entities such as object instances, agents, and regions, with free-form text-based queries."
+  project_page: "https://ovsg.github.io"
+  image: ovsg-q.png
+  github: changhaonan/OVSG
+  image_mouseover: ovsg-nav.mp4
+  authors:
+    - haonan
+    - kowndinya
+    - shiyang
+    - siwei
+    - eric
+    - shreesh
+    - shijie
+    - adeeb
+    - lifeng
+    - kostas
+    - abdeslam
+
+- id: egen
+  title: "eGEN: an energy-saving modeling language and code generator for location-sensing of mobile apps"
+  venue: ESEC/FSE, 2022
+  description: "A tool to specify energy-aware self-adaptive location-sensing strategies helping developers write battery-aware code for mobile apps."
+  github: Kowndinya2000/egen
+  pub_link: https://dl.acm.org/doi/abs/10.1145/3540250.3558914
+  image: egen.webp
+  project_page: "https://"
+  image_mouseover: egen.mp4
+  authors:
+    - kowndinya
+    - marimuthu
+    - chandrasekaran
+    - sridhar
+
+- id: repoquester
+  title: "RepoQuester: A Tool Towards Evaluating GitHub Projects"
+  venue: ICSME, 2022
+  description: "A command-line tool to assist developers in evaluating projects by providing quantitative scores for ten metrics that span project collaboration, quality and maintenance."
+  github: Kowndinya2000/Repoquester
+  pub_link: https://ieeexplore.ieee.org/abstract/document/9978187
+  image: repoquester.webp
+  project_page: "https://"
+  image_mouseover: repoquester.mp4
+  authors:
+    - kowndinya
+    - meiyappan
+    - sridhar
+    - nuthan
+
+- id: gitq
+  title: "GitQ-towards using badges as visual cues for GitHub projects"
+  venue: ICPC, 2022
+  description: "A Chrome plugin to augment GitHub with badges that deliver visual cues quantifying the project's architecture and maintenance."
+  github: gitq-for-github/plugin
+  pub_link: https://dl.acm.org/doi/abs/10.1145/3524610.3527876
+  image: gitq-l.png
+  project_page: "https://"
+  image_mouseover: gitq.mp4
+  authors:
+    - akhila
+    - kowndinya
+    - sridhar
+
+- id: annotator
+  title: "A Platform for Large Scale Auto Annotation of Scanned Documents Featuring Real-Time Model Building and Model Pooling"
+  venue: CVIP, 2021
+  description: "We report here a platform and a model building algorithm that does auto-annotation of documents by building models in real-time."
+  github: Kowndinya2000/anno-testing
+  pub_link: https://link.springer.com/chapter/10.1007/978-3-031-11346-8_6
+  image: annotator.webp
+  project_page: "https://"
+  image_mouseover: annotator.mp4
+  authors:
+    - prashanth
+    - kowndinya
+    - vijay
+    - teja
+    - vidya
+    - ramya
+    - reena
+    - kalidas
