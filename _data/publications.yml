@@ -27,7 +27,6 @@
   pub_link: https://dl.acm.org/doi/abs/10.1145/3540250.3558914
   image: egen.webp
   project_page: "https://"
-  image_mouseover: egen.mp4
   authors:
     - kowndinya
     - marimuthu
@@ -42,7 +41,6 @@
   pub_link: https://ieeexplore.ieee.org/abstract/document/9978187
   image: repoquester.webp
   project_page: "https://"
-  image_mouseover: repoquester.mp4
   authors:
     - kowndinya
     - meiyappan
@@ -57,7 +55,6 @@
   pub_link: https://dl.acm.org/doi/abs/10.1145/3524610.3527876
   image: gitq-l.png
   project_page: "https://"
-  image_mouseover: gitq.mp4
   authors:
     - akhila
     - kowndinya
@@ -71,7 +68,6 @@
   pub_link: https://link.springer.com/chapter/10.1007/978-3-031-11346-8_6
   image: annotator.webp
   project_page: "https://"
-  image_mouseover: annotator.mp4
   authors:
     - prashanth
     - kowndinya
