@@ -36,10 +36,27 @@ lifeng:
   first_name: Lifeng
   last_name: Zhou
   website: https://lfzhou917.github.io/
+alex:
+  first_name: Alex
+  last_name: Lee
+  website: https://www.linkedin.com/in/alex-lee-54a20421a/
+baichuan:
+  first_name: Baichuan
+  last_name: Huang
+  website: https://baichuan05.github.io/
+harish:
+  first_name: Harish
+  middle_name: Udhaya
+  last_name: Kumar
+  website: https://www.cs.rutgers.edu/people/directory.php?type=grad&netid=hu33
 kostas:
   first_name: Kostas
   last_name: Bekris
   website: https://robotics.cs.rutgers.edu/pracsys/members/kostas-bekris/
+jingjin:
+  first_name: Jingjin
+  last_name: Yu
+  website: https://arc-l.github.io/group.html
 abdeslam:
   first_name: Abdeslam
   last_name: Boularias

@@ -1,3 +1,24 @@
+- id: lgmcts
+  title: "LGMCTS: Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement"
+  venue: ICRA, 2024
+  description: "A novel approach to the executable semantic object rearrangement problem."
+  project_page: "https://lgmcts.github.io"
+  image: lgmcts.png
+  github: changhaonan/LGMCTS
+  pub_link: https://arxiv.org/abs/2309.15821
+  image_mouseover: lgmcts.mp4
+  authors:
+    - haonan
+    - kai 
+    - kowndinya
+    - alex
+    - baichuan
+    - harish
+    - jingjin
+    - abdeslam
+  awards:
+    - "Under Review"
+
 - id: ovsg
   title: "Context-Aware Entity Grounding with Open-Vocabulary 3D Scene Graphs"
   venue: CoRL, 2023
@@ -5,6 +26,7 @@
   project_page: "https://ovsg.github.io"
   image: ovsg-q.png
   github: changhaonan/OVSG
+  pub_link: https://arxiv.org/abs/2309.15940
   image_mouseover: ovsg-nav.mp4
   authors:
     - haonan
