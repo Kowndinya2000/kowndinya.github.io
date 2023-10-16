@@ -6,7 +6,7 @@
   image: lgmcts.png
   github: changhaonan/LGMCTS
   pub_link: https://arxiv.org/abs/2309.15821
-  pdf: "LGMCTS__ICRA2024.pdf"
+  pdf: LGMCTS__ICRA2024.pdf
   image_mouseover: lgmcts.mp4
   authors:
     - haonan
@@ -29,7 +29,7 @@
   github: changhaonan/OVSG
   pub_link: https://arxiv.org/abs/2309.15940
   image_mouseover: ovsg-nav.mp4
-  pdf: "OVSG__CoRL2023.pdf"
+  pdf: OVSG__CoRL2023.pdf
   authors:
     - haonan
     - kowndinya

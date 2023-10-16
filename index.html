@@ -9,19 +9,6 @@ layout: null
 
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <title>{{ site.name }}</title>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', '{{ site.google_analytics }}');
-  </script>
 
   <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" rel="stylesheet">
@@ -62,7 +49,7 @@ layout: null
             <div class="buttons">
               <a class="external-link button is-light" href="cv.html">
                 <span class="icon"><i class="fas fa-file"></i></span>
-                <span>CV</span>
+                <span>CV (Web)</span>
               </a>
 
               <a class="external-link button is-light" href="./pdfs/Kowndinya_Resume.pdf">
@@ -166,16 +153,19 @@ layout: null
                 <span class="icon"><i class="fas fa-globe-asia"></i></span>
                 <span>Project Page</span>
               </a>
+              
               {% if publication.pdf %}
-              <a class="external-link button is-small is-ghost" id="arxiv_page_{{publication.id}}" href="./pdfs/{{publication.pdf}}">
+              <a class="external-link button is-small is-ghost" id="arxiv_page_{{publication.id}}" href="./pdfs/{{ publication.pdf }}">
                 <span class="icon"><i class="fas fa-file-pdf"></i></span>
                 <span>PDF</span>
               </a>
               {% endif %}
+
               <a class="external-link button is-small is-ghost" id="pub_link_{{publication.id}}" href="{{ publication.pub_link }}">
                 <span class="icon"><i class="ai ai-arxiv"></i></span>
                 <span>Publication</span>
               </a>
+              
               {% if publication.github %}
               <a class="external-link button is-small is-ghost" id="github_{{publication.id}}" href="https://github.com/{{ publication.github }}">
                 <span class="icon"><i class="fa fab fa-github"></i></span>

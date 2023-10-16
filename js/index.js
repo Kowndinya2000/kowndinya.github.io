@@ -17,7 +17,6 @@ $(document).ready(function () {
             document.getElementById("project_page_" + id).style.display = "none";
             document.getElementById("project_page_" + id).style.visibility = "hidden";
         }
-
     }
 
 })
