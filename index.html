@@ -65,6 +65,11 @@ layout: null
                 <span>CV</span>
               </a>
 
+              <a class="external-link button is-light" href="./pdfs/Kowndinya_Resume.pdf">
+                <span class="icon"><i class="fas fa-file"></i></span>
+                <span>CV (PDF)</span>
+              </a>
+              
               <a class="external-link button is-light"
                 href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
                 <span class="icon"><i class="ai ai-google-scholar"></i></span>
@@ -161,10 +166,12 @@ layout: null
                 <span class="icon"><i class="fas fa-globe-asia"></i></span>
                 <span>Project Page</span>
               </a>
-              <a class="external-link button is-small is-ghost" id="arxiv_page_{{publication.id}}" href="https://arxiv.org/pdf/{{ publication.arxiv }}.pdf">
+              {% if publication.pdf %}
+              <a class="external-link button is-small is-ghost" id="arxiv_page_{{publication.id}}" href="./pdfs/{{publication.pdf}}">
                 <span class="icon"><i class="fas fa-file-pdf"></i></span>
                 <span>PDF</span>
               </a>
+              {% endif %}
               <a class="external-link button is-small is-ghost" id="pub_link_{{publication.id}}" href="{{ publication.pub_link }}">
                 <span class="icon"><i class="ai ai-arxiv"></i></span>
                 <span>Publication</span>
