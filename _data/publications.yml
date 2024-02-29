@@ -1,6 +1,6 @@
 - id: lgmcts
   title: "LGMCTS: Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement"
-  venue: ICRA, 2024
+  venue: IROS, 2024
   description: "A novel approach to the executable semantic object rearrangement problem."
   project_page: "https://lgmcts.github.io"
   image: lgmcts.png
