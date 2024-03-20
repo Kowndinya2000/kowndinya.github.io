@@ -48,6 +48,14 @@ yuhan:
   first_name: Yuhan
   last_name: Liu
   website: https://scholar.google.com/citations?user=iJf4GawAAAAJ&hl=en
+xinyu:
+  first_name: Xinyu
+  last_name: Zhang
+  website: https://mlzxy.github.io/
+liam:
+  first_name: Liam
+  last_name: Schramm
+  website: https://liamschramm.com/
 baichuan:
   first_name: Baichuan
   last_name: Huang

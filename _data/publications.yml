@@ -1,20 +1,22 @@
-- id: dps
-  title: "DPS: Diffusion Point Cloud Segmentation for Multimodality Object Storing"
+- id: dap
+  title: "DAP: Diffusion-based Affordance Prediction for Multi-modality Storage "
   venue: IROS, 2024
-  description: "A novel approach multi-modality object storing problem."
+  description: "A computationally efficient approach to storing objects in multimodal containers."
   # project_page: "https://lgmcts.github.io"
-  image: coming-soon.png
-  # github: changhaonan/LGMCTS
+  image: dap.png
+  github: changhaonan/DPS
   # pub_link: https://arxiv.org/abs/2309.15821
-  # pdf: LGMCTS__ICRA2024.pdf
+  pdf: DAP_IROS24.pdf
   # image_mouseover: lgmcts.mp4
   authors:
     - haonan 
     - kowndinya
     - yuhan
+    - xinyu
+    - liam
     - abdeslam
   awards:
-    - "Preparing for Submission"
+    - "Under Review"
 
 - id: lgmcts
   title: "LGMCTS: Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement"
@@ -24,8 +26,8 @@
   image: lgmcts.png
   github: changhaonan/LGMCTS
   pub_link: https://arxiv.org/abs/2309.15821
-  pdf: LGMCTS__ICRA2024.pdf
-  image_mouseover: lgmcts.mp4
+  pdf: LGMCTS_IROS24.pdf
+  image_mouseover: lgmctsv.mp4
   authors:
     - haonan
     - kai 
@@ -36,7 +38,7 @@
     - jingjin
     - abdeslam
   awards:
-    - "Preparing for Submission"
+    - "Under Review"
 
 - id: ovsg
   title: "Context-Aware Entity Grounding with Open-Vocabulary 3D Scene Graphs"
