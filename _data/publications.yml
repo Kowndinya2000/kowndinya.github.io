@@ -15,8 +15,6 @@
     - xinyu
     - liam
     - abdeslam
-  awards:
-    - "Under Review"
 
 - id: lgmcts
   title: "LGMCTS: Language-Guided Monte-Carlo Tree Search for Executable Semantic Object Rearrangement"
@@ -37,8 +35,6 @@
     - harish
     - jingjin
     - abdeslam
-  awards:
-    - "Under Review"
 
 - id: ovsg
   title: "Context-Aware Entity Grounding with Open-Vocabulary 3D Scene Graphs"
